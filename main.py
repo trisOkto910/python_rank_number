@@ -6,6 +6,11 @@ def pangkat(a, b):
         b = abs(b)
         
         return 1 / (hitungPow(a, b))
+    
+    elif b == 0:
+        
+        return 1
+    
     else:
         for i in range(b - 1) :
             hasil *= a    
